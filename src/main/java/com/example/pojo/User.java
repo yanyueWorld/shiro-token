@@ -4,6 +4,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Table: user
@@ -112,4 +113,6 @@ public class User implements Serializable {
      * Nullable:  true
      */
     private Date lastLoginTime;
+
+    private List<Role> roles;
 }

@@ -4,6 +4,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Table: role
@@ -66,4 +67,6 @@ public class Role implements Serializable {
      * Nullable:  true
      */
     private Date updateTime;
+
+    private List<Permission> permissions;
 }

@@ -36,7 +36,8 @@
                enableSelectByExample="false"
                enableCountByExample="false"
                selectByExampleQueryId="false"></table>
-        <table tableName="permission" mapperName="PermissionDao" domainObjectName="Permission" enableDeleteByExample="false"
+        <table tableName="permission" mapperName="PermissionDao" domainObjectName="Permission"
+               enableDeleteByExample="false"
                enableUpdateByExample="false"
                enableSelectByExample="false"
                enableCountByExample="false"
